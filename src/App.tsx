@@ -1,4 +1,6 @@
+import { Accordeon } from './Accordeon';
 import './App.css';
+import { Modal } from './Modal';
 import { TodoList } from './TodoList';
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
 			<div className='App'>
 			<TodoList tasks={tasks1}/>
 			{/* <TodoList tasks={tasks2} /> */}
+			{/* <Accordeon/> */}
+			{/* <Modal /> */}
 			</div>
 	);
 }

@@ -7,7 +7,7 @@ type TaskElementType = Task & {
 }
 
 export const TaskElement = ({ id, title, isDone, onChangeHandler, onRemoveTask }:TaskElementType) => {
-
+	
 	return (
 		<li >
 			<input type="checkbox" checked={isDone} onChange={()=> onChangeHandler(id)}/>
